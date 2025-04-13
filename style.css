@@ -1,0 +1,88 @@
+/* Apply gradient gaming background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container with soft glass effect */
+.container {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  background: crimson;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#result {
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.sound-toggle {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.custom-linkedin-name {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
